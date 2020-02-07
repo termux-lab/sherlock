@@ -21,9 +21,12 @@ while(true){
       $i++;
   }
 }
-$all = "OS: $res \r IP: $ip \r Browser: $browser";
+$all = "OS: $res \r IP: $ip \r Browser: $browser \r \r";
 $f = fopen("result.txt", "w+");
 fwrite($f, $all);
 fclose($f);
+$fs = fopen("r.log", "a+");
+fwrite($fs, $all);
+fclose($fs);
 ?>
 <img src="finish.jpg" style="heigt:100%; width:100%;">
