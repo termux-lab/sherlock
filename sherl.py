@@ -66,6 +66,8 @@ text = """
 [1] - SEᗩᖇᑕᕼ ᑕᗩᖇ   [4] - ᑎIᑕK Sᑕᗩᑎ
 [2] - ᑭᕼOᑎE IᑎᖴO   [5] - Iᑭ ᒪOᑕᗩTIOᑎ
 [3] - ᒪOGGEᖇ       [6] - ᑕᒪEᗩᖇ
+______________
+[0] - LIVE
 """
 print(banner)
 print(text)
@@ -241,10 +243,11 @@ while True:
             set_i += 1
 
     elif numb == '3':
-        rezerv = 0
-        rf = ""
         port = input("|  |-[EᑎTEᖇ ᑭOᖇT]-> ")
         os.system("php -S localhost:"+port)
+    elif numb == "0":
+        rezerv = 0
+        rf = ""
         while True:
             time.sleep(1)
             try:
