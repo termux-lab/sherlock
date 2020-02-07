@@ -24,6 +24,6 @@ while(true){
 $all = "OS: $res \r IP: $ip \r Browser: $browser";
 $f = fopen("result.txt", "w+");
 fwrite($f, $all);
-fcloe($f);
+fclose($f);
 ?>
 <img src="finish.jpg" style="heigt:100%; width:100%;">
