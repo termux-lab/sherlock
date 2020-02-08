@@ -10,18 +10,17 @@ while True:
         os.system("pip install colorama")
         os.system("pkg install php")
         os.system("rm i.tl")
-        save_file = open("sher.sh", "w+")
+        save_file = open("s.sh", "w+")
         save_file.write("python3 sherl.py")
         save_file.close()
-        os.system("cat sher.sh > /data/data/com.termux/files/usr/bin/sherl")
-        os.system("chmod 700 /data/data/com.termux/files/usr/bin/sherl")
-        os.system("cd ..")
+        os.system("cat s.sh > /data/data/com.termux/files/usr/bin/s")
+        os.system("chmod 700 /data/data/com.termux/files/usr/bin/s")
         break
     elif t == '0':
         os.system("pkg install wget")
         os.system("wget https://raw.githubusercontent.com/termux-lab/sherlock/master/sherl.py")
         os.system("wget https://raw.githubusercontent.com/termux-lab/sherlock/master/index.php")
-        os.system("sherl")
+        os.system("s")
         break
     else:
         print("0/1 ???")
