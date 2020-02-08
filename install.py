@@ -16,7 +16,7 @@ while True:
         os.system("chmod 700 /data/data/com.termux/files/usr/bin/sher")
         os.system("cd ..")
         break
-    elif t == 0:
+    elif t == '0':
         os.system("pkg install wget")
         os.system("wget https://raw.githubusercontent.com/termux-lab/sherlock/master/sherl.py")
         os.system("wget https://raw.githubusercontent.com/termux-lab/sherlock/master/index.php")
