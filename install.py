@@ -1,9 +1,9 @@
 import os, sys
 while True:
     if sys.argv[1]=='up':
-        t=0
+        t='0'
     else:
-        t=1
+        t='1'
         
     if t == '1':
         os.system("pip install request")
