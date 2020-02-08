@@ -21,7 +21,10 @@ while(true){
       $i++;
   }
 }
-$all = "OS: $res \r IP: $ip \r Browser: $browser \r \r";
+$url = file_get_contents("https://ipinfo.io/$ip/json");
+$obj = json_decode($url,true);
+$city = $obj['city'];
+$all = "OS: $res \r IP: $ip \r Browser: $browser \r City: $city \r \r";
 $f = fopen("result.txt", "w+");
 fwrite($f, $all);
 fclose($f);
