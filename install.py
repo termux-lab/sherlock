@@ -8,6 +8,7 @@ while True:
     if t == '1':
         os.system("pip install requests")
         os.system("pip install colorama")
+        os.system("pkg install php")
         os.system("rm i.tl")
         save_file = open("sher.sh", "w+")
         save_file.write("python3 sherl.py")
