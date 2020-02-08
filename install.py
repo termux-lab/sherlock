@@ -1,14 +1,14 @@
-import os
+import os, sys
 while True:
-    print("""
-    Обновить - 0
-    Установка - 1
-    """)
-    t=input("[???]=>")
+    if sys.argv[1]=='up':
+        t=0
+    else:
+        t=1
+        
     if t == '1':
         os.system("pip install request")
         os.system("pip install colorama")
-        os.system("python3 sherl.py")
+        os.system("rm i.tl")
         save_file = open("sher.sh", "w+")
         save_file.write("python3 /sherlock/sherl.py")
         save_file.close()
