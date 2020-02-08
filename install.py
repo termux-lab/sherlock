@@ -9,7 +9,6 @@ while True:
         os.system("pip install requests")
         os.system("pip install colorama")
         os.system("pkg install php")
-        os.system("rm i.tl")
         save_file = open("s.sh", "w+")
         save_file.write("python3 sherl.py")
         save_file.close()
