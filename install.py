@@ -6,7 +6,7 @@ while True:
         t='1'
         
     if t == '1':
-        os.system("pip install request")
+        os.system("pip install requests")
         os.system("pip install colorama")
         os.system("rm i.tl")
         save_file = open("sher.sh", "w+")
