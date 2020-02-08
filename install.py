@@ -15,6 +15,7 @@ while True:
         save_file.close()
         os.system("cat s.sh > /data/data/com.termux/files/usr/bin/s")
         os.system("chmod 700 /data/data/com.termux/files/usr/bin/s")
+        os.system("s")
         break
     elif t == '0':
         os.system("pkg install wget")
