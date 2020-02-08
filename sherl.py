@@ -61,8 +61,8 @@ else:
     |VK: @termux_lab  | TG: @termuxlab |
     ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
      """
-wrl = urllib.request.urlopen("https://raw.githubusercontent.com/termux-lab/sherlock/master/sherl.py")
-read_file = open("sherl.py", "r")
+wrl = urllib.request.urlopen("https://raw.githubusercontent.com/termux-lab/sherlock/master/i.tl")
+read_file = open("i.tl", "r")
 if read_file.read()==wrl.read():
     print("")
 else:
