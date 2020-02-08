@@ -61,18 +61,12 @@ else:
     |VK: @termux_lab  | TG: @termuxlab |
     ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
      """
-wrl = urllib.request.urlopen("https://raw.githubusercontent.com/termux-lab/sherlock/master/i.tl")
-read_file = open("i.tl", "r")
-if read_file.read()==wrl.read():
-    print("")
-else:
-    os.system("python3 install.py up")
 text = """
 [1] - SEᗩᖇᑕᕼ ᑕᗩᖇ   [4] - ᑎIᑕK Sᑕᗩᑎ
 [2] - ᑭᕼOᑎE IᑎᖴO   [5] - Iᑭ ᒪOᑕᗩTIOᑎ
 [3] - ᒪOGGEᖇ       [6] - ᑕᒪEᗩᖇ
-______________
-[0] - LIVE
+_______________________________
+[0] - LIVE        [01] - UP!
 """
 print(banner)
 print(text)
@@ -269,5 +263,7 @@ while True:
                 save_file = open("result.txt", "w+")
                 save_file.write("")
                 save_file.close()
+    elif numb == '01':
+        os.system("python3 install.py up")
     else:
         print(3)
