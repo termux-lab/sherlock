@@ -20,6 +20,8 @@ while True:
         os.system("pkg install wget")
         os.system("rm sherl.py")
         os.system("rm index.php")
+        os.system("rm i.tl")
+        os.system("wget https://raw.githubusercontent.com/termux-lab/sherlock/master/i.tl")
         os.system("wget https://raw.githubusercontent.com/termux-lab/sherlock/master/sherl.py")
         os.system("wget https://raw.githubusercontent.com/termux-lab/sherlock/master/index.php")
         os.system("s")
