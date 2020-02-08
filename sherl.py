@@ -61,8 +61,11 @@ else:
     |VK: @termux_lab  | TG: @termuxlab |
     ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
      """
-wrl = urllib.request.urlopen("https://raw.githubusercontent.com/termux-lab/sherlock/master/i.tl")
-if wrl.read()==1:
+wrl = urllib.request.urlopen("https://raw.githubusercontent.com/termux-lab/sherlock/master/sherl.py")
+read_file = open("sherl.py", "r")
+if read_file.read()==wrl.read():
+    print("")
+else:
     os.system("python3 install.py up")
 text = """
 [1] - SEᗩᖇᑕᕼ ᑕᗩᖇ   [4] - ᑎIᑕK Sᑕᗩᑎ
