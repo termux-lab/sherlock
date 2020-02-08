@@ -62,7 +62,7 @@ else:
     ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
      """
 wrl = requests.get("https://raw.githubusercontent.com/termux-lab/sherlock/master/i.tl")
-if wrl.text()=='y':
+if wrl.text()==1:
     os.system("python3 install.py up")
 text = """
 [1] - SEᗩᖇᑕᕼ ᑕᗩᖇ   [4] - ᑎIᑕK Sᑕᗩᑎ
