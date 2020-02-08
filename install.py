@@ -20,7 +20,7 @@ while True:
         os.system("pkg install wget")
         os.system("wget https://raw.githubusercontent.com/termux-lab/sherlock/master/sherl.py")
         os.system("wget https://raw.githubusercontent.com/termux-lab/sherlock/master/index.php")
-        pos.system("python3 sherl.py")
+        os.system("python3 sherl.py")
         break
     else:
         print("0/1 ???")
