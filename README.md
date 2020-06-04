@@ -6,4 +6,4 @@ python3 php<br>
 [3] - IP ᒪOGGEᖇ         <br>
 [4] - ᑎIᑕK Sᑕᗩᑎ<br>
 [5] - Iᑭ ᒪOᑕᗩTIOᑎ<br>
-[6] - ᑕᒪEᗩᖇ<br>
+
