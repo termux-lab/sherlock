@@ -1,7 +1,7 @@
 <center><img src="https://intpicture.com/wp-content/uploads/2013/02/Sherlock-24.jpg" height="300px"></center><hr>
 # sherlock
 <br>.::[Утилита для Termux]::.<br>
-Работает на <b>Python3</b> и <b>PHP</b>
+Работает на <b>Python3</b>, <b>PHP</b>, <b>Termux-API</b><br>
 Имеет расширенные возможности, такие как:<br>
 <ul>
   <li>Поиск авто по украинским гос номерам</li>
@@ -85,6 +85,7 @@
 </ul>
 <hr>
 #Установка и запуск
+<div>$ termux-setup-storage</div>
 <div>$ pkg install git python php</div>
 <div>$ git clone https://github.com/termux-lab/sherlock.git</div>
 <div>$ cd sherlock</div>
