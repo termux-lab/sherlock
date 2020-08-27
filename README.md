@@ -91,3 +91,9 @@
 <div>$ cd sherlock</div>
 <div>$ python3 install.py</div>
 <div>$ python3 sherl.py</div>
+<hr>
+# Команды:
+<div>set   - [set N] В место N, укажите номер возможности.<br>
+        Например [set 3] запустит логгер, так же с другими.</div>
+<div>clear - Очистить консоль.</div>
+<div>help  - Вызвать помощь.</div>
