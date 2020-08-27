@@ -1,6 +1,6 @@
-<center><img src="https://intpicture.com/wp-content/uploads/2013/02/Sherlock-24.jpg" height="300px"></center>
+<center><img src="https://intpicture.com/wp-content/uploads/2013/02/Sherlock-24.jpg" height="300px"></center><hr>
 # sherlock
-.::[Утилита для Termux]::.<br>
+<br>.::[Утилита для Termux]::.<br>
 Работает на <b>Python3</b> и <b>PHP</b>
 Имеет расширенные возможности, такие как:<br>
 <ul>
@@ -84,8 +84,9 @@
   </li>
 </ul>
 <hr>
-#Установка
+#Установка и запуск
 <div>$ pkg install git python php</div>
 <div>$ git clone https://github.com/termux-lab/sherlock.git</div>
 <div>$ cd sherlock</div>
 <div>$ python3 install.py</div>
+<div>$ python3 sherl.py</div>
