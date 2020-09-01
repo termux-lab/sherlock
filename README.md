@@ -99,6 +99,4 @@
   </table>
 
 
-<br>
-https://vk.com/idanonodin
-https://vk.com/id564380084
+
