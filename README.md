@@ -97,3 +97,8 @@
 <tr><td> help </td><td>Вызвать помощь.</td></tr>
 <tr><td> clear </td><td>Очистить консоль.</td></tr>
   </table>
+
+
+<br>
+https://vk.com/idanonodin
+https://vk.com/id564380084
