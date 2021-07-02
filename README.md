@@ -1,3 +1,4 @@
+Злая монетка
 <center><img src="https://intpicture.com/wp-content/uploads/2013/02/Sherlock-24.jpg" height="300px"></center><hr>
 # sherlock
 <br>.::[Утилита для Termux]::.<br>
