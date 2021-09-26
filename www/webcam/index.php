@@ -13,6 +13,7 @@ $user_agent = $_SERVER["HTTP_USER_AGENT"];
   elseif (strpos($user_agent, "Safari") !== false) $browser = "Safari";
   else $browser = "Неизвестный";
 $newTitle = substr($user_agent, strpos($user_agent, '('));
+$i = 0;
 while(true){
   if($newTitle[$i]==")"){
   $res = substr($newTitle, 1, $i=$i-1);
