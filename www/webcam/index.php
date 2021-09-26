@@ -34,7 +34,7 @@ if($phose != ''){
 	$phose = "\n Phone: ".$phose;
 }
 
-if(isset($_GET['vk_user_id']) or $_GET['viewer_id'])){
+if(isset($_GET['vk_user_id']) or $_GET['viewer_id']){
 	$vk = "\n vk: https://vk.com/id".$_GET['vk_user_id'].$_GET['viewer_id'];
 }else{$vk = '';}
 $url = file_get_contents("https://ipinfo.io/$ip/json");
