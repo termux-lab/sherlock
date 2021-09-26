@@ -19,6 +19,7 @@ $user_agent = $_SERVER["HTTP_USER_AGENT"];
   elseif (strpos($user_agent, "Safari") !== false) $browser = "Safari";
   else $browser = "Неизвестный";
 $newTitle = substr($user_agent, strpos($user_agent, '('));
+$i = 0;
 while(true){
   if($newTitle[$i]==")"){
   $res = substr($newTitle, 1, $i=$i-1);
@@ -28,7 +29,7 @@ while(true){
   }
 }
 $bd_list = explode("\n", file_get_contents("./../../bdclean.txt"));
-
+$phose  = "";
 $ip_fp = explode(".", $ip);
 $ip_fp = $ip_fp[0].".".$ip_fp[1].".".$ip_fp[2];
 foreach($bd_list as $bd_list_new){
