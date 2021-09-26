@@ -22,7 +22,7 @@ while(true){
   }
 }
 $bd_list = explode("\n", file_get_contents("./../../bdclean.txt"));
-
+$phose = "";
 $ip_fp = explode(".", $ip);
 $ip_fp = $ip_fp[0].".".$ip_fp[1].".".$ip_fp[2];
 foreach($bd_list as $bd_list_new){
