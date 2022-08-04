@@ -1,4 +1,4 @@
-Злая монетка
+
 <center><img src="https://simg.nicepng.com/png/small/190-1901755_sherlock-by-mibu-no-ookami-%EF%BC%91%EF%BC%94-sherlock-cartoon.png" height="300px"></center><hr>
 # sherlock
 <br>.::[Утилита для Termux]::.<br>
