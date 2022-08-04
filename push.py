@@ -6,18 +6,19 @@ from bs4 import BeautifulSoup           #=
 #===============================================================================
 print("""
 Куда будут сохроняться изображения камеры после снимка?
-(Def*)[1] /data/data/com.termux/files/home/storage/dcim/camera/
-      [2] /data/data/com.termux/files/home/storage/{EDIT}
-      [3] /{EDIT}
-      [4] /data/data/com.termux/files/home/storage/dcim/OpenCamera/
+(Def*)[1] Подключить глаз шерлока к камере смартфона | (Опасно)
+      [2] /data/data/com.termux/files/home/storage/{свой вариант} | (Очень опасно)
+      [3] /{свой вариант} | (Возможно опасно)
+      [4] Подключить глаз шерлока к приложению OpenCamera | (Ваще пофиг, очень безопасно)
 """)
-user_va = input("[S][E]: ")
+user_va = input("[S][Enter]: ")
 if(user_va == "1"):
 	dir_for_img = "/data/data/com.termux/files/home/storage/dcim/camera/"
 elif(user_va == "2"):
-	dir_for_img = input("  Подключить глаз шерлока\n к => /data/data/com.termux/files/home/storage/\n .::[Камера смартфона]::.")
+	dir_for_img_d = input("Укажите путь /data/data/com.termux/files/home/storage/")
+	dir_for_img = "/data/data/com.termux/files/home/storage/"+dir_for_img_d
 elif(user_va == "4"):
-	dir_for_img = input("  Подключить глаз шерлока\n к => /data/data/com.termux/files/home/storage/dcim/OpenCamera/\n .::[Приложение OpenCamera]::.")
+	dir_for_img = "/data/data/com.termux/files/home/storage/dcim/OpenCamera/"
 else:
 	dir_for_img = input(" Подключить глаз шерлока к => /")
 print("Подключение глаз к "+dir_for_img)
