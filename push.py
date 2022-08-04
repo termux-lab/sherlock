@@ -15,7 +15,9 @@ user_va = input("[S][E]: ")
 if(user_va == "1"):
 	dir_for_img = "/data/data/com.termux/files/home/storage/dcim/camera/"
 elif(user_va == "2"):
-	dir_for_img = input("  Подключить глаз шерлока\n к => /data/data/com.termux/files/home/storage/")
+	dir_for_img = input("  Подключить глаз шерлока\n к => /data/data/com.termux/files/home/storage/\n .::[Камера смартфона]::.")
+elif(user_va == "4"):
+	dir_for_img = input("  Подключить глаз шерлока\n к => /data/data/com.termux/files/home/storage/dcim/OpenCamera/\n .::[Приложение OpenCamera]::.")
 else:
 	dir_for_img = input(" Подключить глаз шерлока к => /")
 print("Подключение глаз к "+dir_for_img)
