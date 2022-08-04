@@ -1,5 +1,5 @@
 Злая монетка
-<center><img src="https://intpicture.com/wp-content/uploads/2013/02/Sherlock-24.jpg" height="300px"></center><hr>
+<center><img src="https://simg.nicepng.com/png/small/190-1901755_sherlock-by-mibu-no-ookami-%EF%BC%91%EF%BC%94-sherlock-cartoon.png" height="300px"></center><hr>
 # sherlock
 <br>.::[Утилита для Termux]::.<br>
 Работает на <b>Python3</b>, <b>PHP</b><br>
@@ -11,6 +11,7 @@
  <5> VideoMag - Запись видео в фоновом режиме.<br>
  <6> VK MiniApps - Краткая инструкция для подключения <3> и <4> к MiniApps VK.<br>
  <7> Social track - Помогает определить аккаунт в соц.сетях(инст, вк и т.п). Укажите <07>, для запуска сервера.<br>
+ <8> - Поиск инфы по номеру телефона(ру) в утечках. Может найти вк, слитые пароли, почты, фио, адреса и т.п.
 <hr>
 #Установка и запуск
 <div>$ termux-setup-storage</div>
